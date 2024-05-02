@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/VIVA_PROJ/SRL_2/SRC/SRL_BIT.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SRL_BIT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/VIVA_PROJ/SRL_2/SRC/SRL_BUS.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SRL_BUS
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "H:/VIVA_PROJ/SRL_2/TB/SRL_BUS_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SRL_BUS_tb
