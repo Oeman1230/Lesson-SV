@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FIFO.srcs/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" \
+
+sv xil_defaultlib  \
+"../../../../src/core/Counter_FSM.sv" \
+"../../../../src/core/fifo_mult.sv" \
+"../../../../src/tb/fifo_mult_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

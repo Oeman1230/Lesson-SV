@@ -1,0 +1,12 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: H:/VIVA/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 61e45c9b41ce4346a8fead4d2e01e76a --incr --debug typical --relax --mt 2 -L fifo_generator_v13_2_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot fifo_mult_tb_behav xil_defaultlib.fifo_mult_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 14 for port 'data_o' [H:/VIVA_PROJ/FIFO/src/tb/fifo_mult_tb.sv:38]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 8 for port 'din' [H:/VIVA_PROJ/FIFO/src/core/fifo_mult.sv:69]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 8 for port 'dout' [H:/VIVA_PROJ/FIFO/src/core/fifo_mult.sv:72]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 8 for port 'din' [H:/VIVA_PROJ/FIFO/src/core/fifo_mult.sv:107]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 8 for port 'dout' [H:/VIVA_PROJ/FIFO/src/core/fifo_mult.sv:110]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
